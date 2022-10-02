@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,24 +13,25 @@
 <body>
   <!-- Navigation Bar -->
   <header>
-    <section><img src="assets/conference.png" /></section>
+    <section><img src="./images/conference.png" height="50px"/></section>
     <section>
-      <h3>Design Conference</h3>
+      <h3 id="logo">Design Conference</h3>
     </section>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Venue</a></li>
-        <li><a href="#">Contact</a></li>
+      
+      <ul id="ul1">
+        <li class="header1"><a href="#">Home</a></li>
+        <li class="header1"><a href="#">Speakers</a></li>
+        <li class="header1"><a href="#">Schedule</a></li>
+        <li class="header1"><a href="#">Venue</a></li>
+        <li id="contact" class="header1"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   <!-- The Hero Unit -->
-  <div>
+  <div  id="backimg">
     <h1>Dedicated to the Craft of Building Websites</h1>
-    <h2>
+    <h2 id="small">
       Every year the brightest web designers and front-end developers descend
       on Chicago to discuss the latest technologies.
     </h2>
@@ -38,12 +40,12 @@
   </div>
 
   <!-- The Flex container that holds each paper or card -->
-  <section>
-    <section>
-      <article>
+  <section >
+    <section id="flex">
+      <article id="card1">
         <h3>Speakers</h3>
         <a href="#">
-          <img src="assets/speakers.jpg" alt="Professional Speaker" />
+          <img src="./images/speakers.jpg" width="200px" height="200px" alt="Professional Speaker" />
           <h4>World-Class Speakers</h4>
         </a>
         <p>
@@ -51,10 +53,10 @@
           speakers, share their stories.
         </p>
       </article>
-      <article>
+      <article id="card1">
         <h3>Schedule</h3>
         <a href="#">
-          <img src="assets/schedule.jpg" alt="Schedule" />
+          <img src="./images/schedule.jpg" width="200px" height="200px" alt="Schedule" />
           <h4>Three Inspiring Days</h4>
         </a>
         <p>
@@ -62,10 +64,10 @@
           all-around good times.
         </p>
       </article>
-      <article>
+      <article id="card1">
         <h3>Venue</h3>
         <a href="#">
-          <img src="assets/venue.jpg" alt="Venue" />
+          <img src="./images/venue.jpg" width="200px" height="200px" alt="Venue" />
           <h4>The Chicago Theatre</h4>
         </a>
         <p>
@@ -76,23 +78,23 @@
     </section>
     <!-- Footer -->
     <footer>
-      <div>
+      <div id="grid">
         <div>
           <!-- Footer-links -->
-          <ul>
+          <ul style="list-style-type: none;">
             <li><strong>
                 <!-- Footer Header -->
-                <h4>ABOUT</h4>
+                <h4 style="color:wheat ;">ABOUT</h4>
               </strong></li>
-            <li>We are an event management company specialized in arranging events for large corporates</li>
+            <li style="color: #737373;">We are an event management company specialized in arranging events for large corporates</li>
           </ul>
         </div>
         <div>
           <!-- Footer-links -->
-          <ul>
+          <ul style="list-style-type: none;">
             <li><strong>
                 <!-- Footer Header -->
-                <p>SERVICES</p>
+                <p style="color:wheat ;">SERVICES</p>
               </strong></li>
             <li><a href="#"><i aria-hidden="true"></i> Conferences</a></li>
             <li><a href="#"><i aria-hidden="true"></i> Executive Retreats</a></li>
@@ -101,10 +103,10 @@
         </div>
         <div>
           <!-- Footer-links -->
-          <ul>
+          <ul style="list-style-type: none;">
             <li><strong>
                 <!-- Footer Header -->
-                <p>COMPANY</p>
+                <p style="color:wheat ;">COMPANY</p>
               </strong></li>
             <li><a href="#"><i aria-hidden="true"></i> Home</a></li>
             <li><a href="#"><i aria-hidden="true"></i> About</a></li>
@@ -113,24 +115,24 @@
         </div>
         <div>
           <!-- Footer-links -->
-          <ul>
+          <ul style="list-style-type: none;">
             <li><strong>
                 <!-- Footer Header -->
-                <p>CONTACT</p>
+                <p style="color:wheat ;">CONTACT</p>
               </strong></li>
-            <li><i class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
-            <li><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
+            <li style="color:#737373 ;"><i class="fa fa-phone" aria-hidden="true"></i> +27 000 0004l</li>
+            <li style="color:#737373 ;"><i class="fa fa-envelope-o" aria-hidden="true"></i> info@nevex.com</li>
+            <li style="color:#737373 ;"><i class="fa fa-map-marker" aria-hidden="true"></i> 1 Street. NYC</li>
           </ul>
         </div>
 
         <div>
           <!-- social media links -->
-          <ul>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <ul style="list-style-type: none;">
+            <li style="display:inline;"><a id="a" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li style="display:inline;"><a id="a" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li style="display:inline;"><a id="a" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li style="display:inline;"><a id="a" href="#"><i class="fa fa-linkedin"></i></a></li>
 
           </ul>
         </div>

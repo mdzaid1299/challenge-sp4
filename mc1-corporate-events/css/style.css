@@ -1,1 +1,88 @@
 /* Write CSS code here */
+header{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    border-color: grey;
+}
+.header1{
+    
+ margin: 9px;  
+}
+#contact{
+    margin-right: 45px;
+}
+#logo{
+    margin-right: 70./0px;
+}
+#ul1{
+    list-style: none;
+    display: flex; 
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(234, 229, 219)  ;
+}
+#backimg{
+    background-image: url(../images/corporate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+   padding-top: 100px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif ;
+   line-height: 35px;
+}
+#card1{
+    width: 380px;
+    text-align: center;
+   box-shadow: 3px 3px 3px 3px rgba(52, 50, 50,0.5);
+    font-family:  "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   margin-top: 10px;
+
+   margin-bottom: 10px;
+  
+ 
+}
+#card1 h3 { 
+    color: black;
+
+}
+#card1 img{
+    border-radius: 50%;
+}
+#small{
+    font-size: medium;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    background-color: #000000 ;
+   
+}
+@media screen and (max-width: 480px){
+    #grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    header{
+        display: flex;
+    }
+    #ul1{
+        display: list-item;
+    }
+    #logo{
+        margin-left: 100px;
+    }
+}
